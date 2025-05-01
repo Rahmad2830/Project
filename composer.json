@@ -1,0 +1,16 @@
+{
+    "name": "project/mvc",
+    "description": "Belajar MVC",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Project\\Mvc\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahmat Nur Hidayat"
+        }
+    ],
+    "require": {}
+}
