@@ -1,0 +1,129 @@
+{
+  "menu": [
+    {
+      "nama": "KOPI SUSU BULUKUMBA",
+      "harga": 22000,
+      "deskripsi": "Kopi khas Bulukumba yang disajikan dengan campuran susu kental manis, memberikan rasa manis dan creamy."
+    },
+    {
+      "nama": "KOPI ACEH",
+      "harga": 20000,
+      "deskripsi": "Kopi hitam khas Aceh dengan aroma kuat dan cita rasa yang pekat, cocok untuk penikmat kopi sejati."
+    },
+    {
+      "nama": "KOPI SANGER ACEH",
+      "harga": 22000,
+      "deskripsi": "Perpaduan kopi Aceh dengan susu kental manis dan sedikit gula, menghasilkan rasa lembut dan tidak terlalu pahit."
+    },
+    {
+      "nama": "KOPI SIDIKALANG",
+      "harga": 18000,
+      "deskripsi": "Kopi dari dataran tinggi Sidikalang, terkenal dengan rasa yang kuat dan aroma khas Sumatera."
+    },
+    {
+      "nama": "HOT KOPI BALI",
+      "harga": 18000,
+      "deskripsi": "Kopi panas khas Bali dengan karakter earthy dan sedikit asam, diseduh secara tradisional."
+    },
+    {
+      "nama": "KOPI GINGSENG BALI",
+      "harga": 22000,
+      "deskripsi": "Kopi Bali yang dipadukan dengan ekstrak gingseng, memberikan rasa unik serta manfaat tambahan untuk stamina."
+    },
+    {
+      "nama": "ES KOPI SUSU BULUKUMBA",
+      "harga": 24000,
+      "deskripsi": "Versi dingin dari kopi susu Bulukumba, cocok untuk dinikmati saat cuaca panas."
+    },
+    {
+      "nama": "KOPI LAMPUNG",
+      "harga": 18000,
+      "deskripsi": "Kopi robusta dari Lampung yang memiliki rasa pahit kuat dan aroma cokelat."
+    },
+    {
+      "nama": "ES KOPI SANGER ACEH",
+      "harga": 24000,
+      "deskripsi": "Kopi sanger khas Aceh yang disajikan dingin dengan rasa manis dan lembut."
+    },
+    {
+      "nama": "KOPI LOMBOK",
+      "harga": 18000,
+      "deskripsi": "Kopi lokal dari Lombok dengan rasa seimbang dan aroma floral ringan."
+    },
+    {
+      "nama": "ES COKLAT",
+      "harga": 24000,
+      "deskripsi": "Minuman cokelat dingin dengan rasa manis pekat dan tekstur creamy."
+    },
+    {
+      "nama": "KOPI JAHE LOMBOK",
+      "harga": 20000,
+      "deskripsi": "Kopi khas Lombok yang dipadukan dengan jahe segar, memberikan sensasi hangat dan menyegarkan."
+    },
+    {
+      "nama": "ICE MILK GREEN TEA",
+      "harga": 20000,
+      "deskripsi": "Green tea dengan susu dan es, menghasilkan minuman yang creamy dan menyegarkan."
+    },
+    {
+      "nama": "ES JERUK",
+      "harga": 15000,
+      "deskripsi": "Minuman jeruk dingin tanpa kopi, menyegarkan dan kaya vitamin C."
+    },
+    {
+      "nama": "COKLAT PANAS",
+      "harga": 22000,
+      "deskripsi": "Minuman cokelat panas yang lembut dan manis, cocok untuk menemani suasana santai."
+    },
+    {
+      "nama": "ES TEH TARIK",
+      "harga": 14000,
+      "deskripsi": "Teh tarik khas dengan busa lembut, disajikan dingin dengan rasa manis pas."
+    },
+    {
+      "nama": "TEH TARIK",
+      "harga": 12000,
+      "deskripsi": "Teh dicampur susu dan ditarik untuk menghasilkan busa lembut, disajikan hangat."
+    },
+    {
+      "nama": "ES TEH MANIS",
+      "harga": 12000,
+      "deskripsi": "Teh manis dingin, segar untuk dinikmati kapan saja."
+    },
+    {
+      "nama": "TEH TUBRUK",
+      "harga": 12000,
+      "deskripsi": "Teh kental tradisional Indonesia, diseduh langsung dengan daun teh tanpa disaring."
+    },
+    {
+      "nama": "TEH MANIS",
+      "harga": 10000,
+      "deskripsi": "Teh hangat dengan tambahan gula, minuman klasik yang tak lekang oleh waktu."
+    },
+    {
+      "nama": "WEDANG REMPAH",
+      "harga": 15000,
+      "deskripsi": "Minuman tradisional hangat berbahan rempah seperti jahe, kayu manis, dan cengkeh."
+    },
+    {
+      "nama": "BAJIGUR",
+      "harga": 15000,
+      "deskripsi": "Minuman khas Sunda dari santan, gula aren, dan rempah yang menghangatkan."
+    },
+    {
+      "nama": "JERUK HANGAT",
+      "harga": 12000,
+      "deskripsi": "Perasan jeruk segar yang disajikan hangat, cocok untuk menjaga daya tahan tubuh."
+    },
+    {
+      "nama": "AIR MINERAL",
+      "harga": 6000,
+      "deskripsi": "Air mineral botolan untuk menjaga hidrasi tubuh."
+    },
+    {
+      "nama": "AIR PUTIH HANGAT",
+      "harga": 4000,
+      "deskripsi": "Air putih yang disajikan hangat, cocok untuk menemani santapan atau meredakan tenggorokan."
+    }
+  ]
+}

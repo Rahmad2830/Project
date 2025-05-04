@@ -1,14 +1,9 @@
-  <footer class="text-center">
-    <div class="container">
-      <p class="mb-0">&copy; 2025 CoffeeHouse. All rights reserved.</p>
+    <!-- footer -->
+    <div class="p-4 bg-dark text-light text-center">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2025</p>
+      </div>
     </div>
-  </footer>
-
-  <!-- Scripts -->
-  <script src="<?= BASEURL; ?>/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
+    <!-- end footer -->
+  </body>
 </html>

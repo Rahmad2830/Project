@@ -1,17 +1,15 @@
 <?php
 namespace Project\Mvc\models;
-use Project\Mvc\core\Database;
+use Project\Mvc\core\FileSystem;
 
 class ProductModel {
   private $dbh;
   
   public function __construct() {
-    $this->dbh = new Database;
+    $this->dbh = new FileSystem;
   }
   
   public function getAllData() {
-    $this->dbh->query("SELECT * FROM daftar_coffee");
-    $this->dbh->execute();
-    return $this->dbh->resultSet();
+    return $this->dbh->getContents(__DIR__."/../data/Menu.json");
   }
 }

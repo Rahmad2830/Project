@@ -1,98 +1,163 @@
-<!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
-    <div class="container">
-      <a class="navbar-brand" href="#">CoffeeHouse</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-        <ul class="navbar-nav text-center">
-          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="hero" id="home">
-    <div class="hero-content" data-aos="fade-up">
-      <h1 class="display-4 fw-bold">Welcome to CoffeeHouse</h1>
-      <p class="lead">A perfect place to enjoy your favorite coffee</p>
-      <a href="#menu" class="btn btn-outline-light btn-lg mt-3">View Menu</a>
-    </div>
-  </header>
-
-  <!-- Menu Section -->
-  <section id="menu" class="bg-light section-padding">
-    <div class="container text-center" data-aos="fade-up">
-      <h2 class="mb-4">Our Menu</h2>
-      <div class="row g-4">
-        <div class="col-md-4 menu-item">
-          <div class="card h-100">
-            <img src="<?= BASEURL; ?>/img/Hot_Kopi_Bali.jpg" class="card-img-top" alt="Latte">
-            <div class="card-body">
-              <h5 class="card-title">Latte</h5>
-              <p class="card-text">Smooth espresso mixed with steamed milk and foam.</p>
-            </div>
+    <!-- hero -->
+    <div class="hero bg-dark text-white text-center justify-content-center">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6">
+            <h3 class="lead my-3">Start Your Day With a</h3>
+            <h1 class="display-4 fw-bold">Great <span class="text-warning">Coffee</span></h1>
+            <a class="btn btn-outline-light btn-lg my-3" href="<?= BASEURL; ?>/Home/menu">View Menu</a>
           </div>
-        </div>
-        <div class="col-md-4 menu-item">
-          <div class="card h-100">
-            <img src="<?= BASEURL; ?>/img/Kopi_Aceh.jpg" class="card-img-top" alt="Espresso">
-            <div class="card-body">
-              <h5 class="card-title">Espresso</h5>
-              <p class="card-text">Bold and intense coffee shot to energize your day.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 menu-item">
-          <div class="card h-100">
-            <img src="<?= BASEURL; ?>/img/Kopi_Sidikalang.jpg" class="card-img-top" alt="Mocha">
-            <div class="card-body">
-              <h5 class="card-title">Mocha</h5>
-              <p class="card-text">Rich blend of espresso, chocolate, and steamed milk.</p>
-            </div>
+          <div class="col-md-6">
+            <img src="<?= BASEURL; ?>/img/coffee.png" class="w-100">
           </div>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="section-padding">
-    <div class="container" data-aos="fade-right">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <img src="<?= BASEURL; ?>/img/thumbnail1.jpg" class="img-fluid rounded shadow" alt="About us">
+    <!-- end hero -->
+    
+    <!-- box -->
+    <div class="pt-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md">
+            <h1>Why Choose Us?</h1>
+            <hr class="divider">
+          </div>
         </div>
-        <div class="col-md-6">
-          <h2>About CoffeeHouse</h2>
-          <p>At CoffeeHouse, we serve handcrafted coffee and freshly baked goods in a cozy atmosphere. Our baristas are passionate about every cup, ensuring quality in every sip.</p>
+        <div class="row text-center">
+          <div class="col-md p-4">
+            <div class="card">
+            <div class="card-body">
+              <h2><img src="<?= BASEURL; ?>/img/journal-code.svg" style="width:50px"></h2>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-md p-4">
+            <div class="card">
+            <div class="card-body">
+              <h2><img src="<?= BASEURL; ?>/img/cup-hot.svg" style="width:50px"></h2>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-md p-4">
+            <div class="card">
+            <div class="card-body">
+              <h2><img src="<?= BASEURL; ?>/img/amazon.svg" style="width:50px"></h2>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          </div>
+          <hr class="divider">
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="bg-light section-padding">
-    <div class="container" data-aos="fade-up">
-      <h2 class="text-center mb-4">Get in Touch</h2>
-      <form class="row g-3">
-        <div class="col-md-6">
-          <input type="text" class="form-control" placeholder="Your Name" required>
+    <!-- end box -->
+    
+    <!-- penjelasan -->
+    <div class="py-4 bg-dark text-white">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-5 py-4">
+            <img src="<?= BASEURL; ?>/img/kopi.png" class="img-fluid">
+          </div>
+          <div class="col-md-6
+          5 text-center text-md-start">
+            <h1>Brewed With Passion, A-Coffee is Different!</h1>
+            <p class="lead">At CoffeeHouse, we serve handcrafted coffee and freshly baked goods in a cozy atmosphere. Our baristas are passionate about every cup, ensuring quality in every sip.</p>
+          </div>
         </div>
-        <div class="col-md-6">
-          <input type="email" class="form-control" placeholder="Your Email" required>
-        </div>
-        <div class="col-12">
-          <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
-        </div>
-        <div class="col-12 text-center">
-          <button type="submit" class="btn btn-dark px-5">Send Message</button>
-        </div>
-      </form>
+      </div>
     </div>
-  </section>
+    <!-- end penjelasan -->
+    
+    <!-- menu -->
+    <div class="pt-4 text-center">
+      <div class="row text-center">
+        <h1>Our Menu</h1>
+        <hr class="divider">
+      </div>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md p-4">
+            <div class="card">
+              <img src="<?= BASEURL; ?>/img/Kopi_Aceh.jpg" class="card-img-top" alt="Kopi Aceh">
+              <div class="card-body">
+                <h5 class="card-title">Kopi Aceh</h5>
+                <p class="card-text">Kopi hitam khas Aceh dengan aroma kuat dan cita rasa yang pekat, cocok untuk penikmat kopi sejati.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md p-4">
+            <div class="card">
+              <img src="<?= BASEURL; ?>/img/Hot_Kopi_Bali.jpg" class="card-img-top" alt="Hot Kopi Bali">
+              <div class="card-body">
+                <h5 class="card-title">Hot Kopi Bali</h5>
+                <p class="card-text">Kopi panas khas Bali dengan karakter earthy dan sedikit asam, diseduh secara tradisional.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md p-4">
+            <div class="card">
+              <img src="<?= BASEURL; ?>/img/Kopi_Sidikalang.jpg" class="card-img-top" alt="Kopi Sidikalang">
+              <div class="card-body">
+                <h5 class="card-title">Kopi Sidikalang</h5>
+                <p class="card-text">Kopi dari dataran tinggi Sidikalang, terkenal dengan rasa yang kuat dan aroma khas Sumatera.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 p-4">
+            <div class="card">
+              <img src="<?= BASEURL; ?>/img/Kopi_Ginseng_Bali.jpg" class="card-img-top" alt="Kopi Ginseng Bali">
+              <div class="card-body">
+                <h5 class="card-title">Kopi Ginseng Bali</h5>
+                <p class="card-text">Kopi Bali yang dipadukan dengan ekstrak gingseng, memberikan rasa unik serta manfaat tambahan untuk stamina.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-4">
+            <div class="card">
+              <img src="<?= BASEURL; ?>/img/Kopi_Sanger_Aceh.jpg" class="card-img-top" alt="Kopi Sanger Aceh">
+              <div class="card-body">
+                <h5 class="card-title">Kopi Sanger Aceh</h5>
+                <p class="card-text">Perpaduan kopi Aceh dengan susu kental manis dan sedikit gula, menghasilkan rasa lembut dan tidak terlalu pahit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-primary btn-lg" href="">View More</a>
+        <hr class="divider">
+      </div>
+    </div>
+    <!-- end menu -->
+    
+    <!-- form -->
+    <div class="container-fluid">
+      <div class="row p-3 text-center">
+        <div class="col">
+          <h1>Get In Touch</h1>
+          <hr class="divider">
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-md-6">
+          <form method="post" action="">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Name">
+            <input type="text" name="email" class="form-control mt-3" id="email" placeholder="Email">
+            <input type="text" name="phone" class="form-control mt-3" id="phone" placeholder="Phone Number">
+            <textarea type="textarea" name="message" class="form-control mt-3" id="message" placeholder="Message" style="height : 10rem"></textarea>
+            <button class="btn btn-primary btn-lg mt-3" type="submit" name="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- end form -->
