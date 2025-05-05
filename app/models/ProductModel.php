@@ -12,4 +12,8 @@ class ProductModel {
   public function getAllData() {
     return $this->dbh->getContents(__DIR__."/../data/Menu.json");
   }
+  
+  public function addEmail($data) {
+    return $this->dbh->addEmail(__DIR__."/../data/Email.json", $data);
+  }
 }

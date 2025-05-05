@@ -14,4 +14,15 @@ class Home extends BaseController {
     $this->view("Menu", $data);
     $this->view("template/footer");
   }
+  public function addEmail() {
+    if($_SERVER['REQUEST_METHOD'] == 'POST') {
+      if(!file_exists(__DIR__."/../data/Email.json")) {
+        $path = __DIR__."/../data/Email.json";
+        fopen($path, "w");
+        file_put_contents($path, "[]");
+      }
+      $this->model("ProductModel")->addEmail($_POST);
+      header("location:".BASEURL."/Home/index");
+    }
+  }
 }

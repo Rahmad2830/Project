@@ -134,7 +134,7 @@
             </div>
           </div>
         </div>
-        <a class="btn btn-primary btn-lg" href="">View More</a>
+        <a class="btn btn-primary btn-lg" href="<?= BASEURL; ?>/Home/menu">View More</a>
         <hr class="divider">
       </div>
     </div>
@@ -150,10 +150,10 @@
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-md-6">
-          <form method="post" action="">
+          <form method="post" action="<?= BASEURL; ?>/Home/addEmail">
             <input type="text" name="name" class="form-control" id="name" placeholder="Name">
-            <input type="text" name="email" class="form-control mt-3" id="email" placeholder="Email">
-            <input type="text" name="phone" class="form-control mt-3" id="phone" placeholder="Phone Number">
+            <input type="email" name="email" class="form-control mt-3" id="email" placeholder="Email">
+            <input type="number" name="phone" class="form-control mt-3" id="phone" placeholder="Phone Number">
             <textarea type="textarea" name="message" class="form-control mt-3" id="message" placeholder="Message" style="height : 10rem"></textarea>
             <button class="btn btn-primary btn-lg mt-3" type="submit" name="submit">Submit</button>
           </form>

@@ -16,11 +16,13 @@ class FileSystem {
     return file_put_contents($filePath, $data);
   }
   public function addEmail($filePath, $data) {
-    $result = $this->getContents("Email.json");
+    $result = $this->getContents($filePath);
     
     $arr = [
-      "Nama" => $data['nama'],
-      "Email" => $data['email']
+      "Nama" => $data['name'],
+      "Email" => $data['email'],
+      "Phone" => $data['phone'],
+      "Message" => $data['message']
       ];
       
     $result[] = $arr;
