@@ -68,8 +68,7 @@
           <div class="col-md-5 py-4">
             <img src="<?= BASEURL; ?>/img/kopi.png" class="img-fluid">
           </div>
-          <div class="col-md-6
-          5 text-center text-md-start">
+          <div class="col-md-6 text-center text-md-start">
             <h1>Brewed With Passion, A-Coffee is Different!</h1>
             <p class="lead">At CoffeeHouse, we serve handcrafted coffee and freshly baked goods in a cozy atmosphere. Our baristas are passionate about every cup, ensuring quality in every sip.</p>
           </div>
@@ -141,7 +140,7 @@
     <!-- end menu -->
     
     <!-- form -->
-    <div class="container-fluid">
+    <div class="container">
       <div class="row p-3 text-center">
         <div class="col">
           <h1>Get In Touch</h1>
@@ -152,7 +151,9 @@
         <div class="col-md-6">
           <form method="post" action="<?= BASEURL; ?>/Home/addEmail">
             <input type="text" name="name" class="form-control" id="name" placeholder="Name">
+            <span class="text-danger"><?= $data['Name']; ?></span>
             <input type="email" name="email" class="form-control mt-3" id="email" placeholder="Email">
+            <span class="text-danger"><?= $data['Email']; ?></span>
             <input type="number" name="phone" class="form-control mt-3" id="phone" placeholder="Phone Number">
             <textarea type="textarea" name="message" class="form-control mt-3" id="message" placeholder="Message" style="height : 10rem"></textarea>
             <button class="btn btn-primary btn-lg mt-3" type="submit" name="submit">Submit</button>

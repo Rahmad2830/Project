@@ -1,6 +1,7 @@
 <?php
 namespace Project\Mvc\controllers;
 use Project\Mvc\core\BaseController;
+use Project\Mvc\core\Validator;
 
 class Home extends BaseController {
   public function index() {
@@ -21,8 +22,17 @@ class Home extends BaseController {
         fopen($path, "w");
         file_put_contents($path, "[]");
       }
-      $this->model("ProductModel")->addEmail($_POST);
-      header("location:".BASEURL."/Home/index");
+      $validator = new Validator($_POST);
+      $data = $validator->validate("Name", "name");
+      $data = $validator->validate("Email", "email");
+      if($validator->noError()) {
+        $data = $validator->sanitize();
+        $this->model("ProductModel")->addEmail($data);
+        header("location:".BASEURL."/Home/index");
+      }
     }
+    $this->view("template/header");
+    $this->view("Home", $data);
+    $this->view("template/footer");
   }
 }

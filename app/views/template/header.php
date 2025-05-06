@@ -5,6 +5,11 @@
     <link rel="stylesheet" type="text/css" href="<?= BASEURL; ?>/css/bootstrap.min.css">
     <script src="<?= BASEURL; ?>/js/bootstrap.min.js"></script>
     <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
       .hero {
         margin-top: 55px;
       }
