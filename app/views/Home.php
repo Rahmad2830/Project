@@ -155,6 +155,7 @@
             <input type="email" name="email" class="form-control mt-3" id="email" placeholder="Email">
             <span class="text-danger"><?= $data['Email']; ?></span>
             <input type="number" name="phone" class="form-control mt-3" id="phone" placeholder="Phone Number">
+            <span class="text-danger"><?= $data['Phone Number']; ?></span>
             <textarea type="textarea" name="message" class="form-control mt-3" id="message" placeholder="Message" style="height : 10rem"></textarea>
             <button class="btn btn-primary btn-lg mt-3" type="submit" name="submit">Submit</button>
           </form>

@@ -23,8 +23,9 @@ class Home extends BaseController {
         file_put_contents($path, "[]");
       }
       $validator = new Validator($_POST);
-      $data = $validator->validate("Name", "name");
-      $data = $validator->validate("Email", "email");
+      $data = $validator->validateRequired("Name", "name");
+      $data = $validator->validateEmail("Email", "email");
+      $data = $validator->validatePhone("Phone Number", "phone");
       if($validator->noError()) {
         $data = $validator->sanitize();
         $this->model("ProductModel")->addEmail($data);
